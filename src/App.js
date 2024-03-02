@@ -8,7 +8,7 @@ const App = () => {
 
   const [userName,setUserName]=useState()
   const handleUserName=(userName)=>{
-     setUserName(userName)
+     setUserName(userName);
   }
   
   return (
